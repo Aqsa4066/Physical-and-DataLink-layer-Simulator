@@ -1,0 +1,30 @@
+--- PHYSICAL AND DATA LINK LAYER SIMULATOR USING PYTHON ---
+
+#INTRODUCTION
+
+This project demonstrate the working of the Physical Layer and Data Link Layer of the OSI model. The simulator shows how data is transmitted from one device to another, how signals are generated using different line encoding techniques, and how reliable communication is achieved using error detection, error correction, access control, and flow control methods.
+
+A. Physical Layer Implementation
+In physical layer, following functionalities were implemented:
+1. bit to string conversion and vice-versa
+2. line encoding techniques
+3. signal waveform visualization
+4. and creating devices, topologies, links between devices etc.
+
+B. Data Link Layer Implementation
+In data link layer, following functionalities were implemented:
+1. Noise Simulation
+2. Frame Formation
+3. Error Detection and Correction
+4. access control - csma/cd
+5. flow control - stop and wait
+6. switch and MAC address learning
+
+# TOOLS AND LIBRARIES USED
+The simulator was developed using python and the following libraries were used:
+1. matplotlib: used to plot and visualize encoded signals. It also shows how binary data is converted into voltage levels over time using different line encoding techniques.
+2. NetworkX: used to create and display network topology. It helps in visualizing how different devices are connected in point-to-point and star topologies.
+3. time module: used to simulate transmissiona and propagation delay in the network.
+4. random module: used to introduce noise during transmission. It allows the simulator to demonstrate error detection and correction techniques.
+5. chatgpt
+6. AlmaBetter: I used it for well-known python libraries, with a brief description of each library.
